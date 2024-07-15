@@ -1,0 +1,21 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 5rem;
+  gap: 4rem;
+  width: 30rem;
+}
+
+.cart {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.total {
+  border-top: 2px solid gray;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 1.5rem;
+}

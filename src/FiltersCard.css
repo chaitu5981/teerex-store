@@ -1,0 +1,19 @@
+.filters-card {
+  box-shadow: 2px 2px 10px lightgray;
+  width: 12rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.filter-category {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.filter-item {
+  display: flex;
+  gap: 0.5rem;
+}

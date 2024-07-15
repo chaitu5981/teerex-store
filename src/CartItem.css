@@ -1,0 +1,33 @@
+.cart-item {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.cart-image-container {
+  width: 5rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  flex-basis: 20%;
+}
+.cart-item-image {
+  width: 90%;
+  height: 90%;
+}
+
+.cart-item-info {
+  font-weight: bold;
+  align-self: center;
+  flex-basis: 40%;
+}
+.cart-item-qty {
+  flex-basis: 30%;
+}
+.cart-item-delete {
+  padding: 0.2rem;
+  flex-basis: 10%;
+  background-color: transparent;
+  border-radius: 3px;
+}

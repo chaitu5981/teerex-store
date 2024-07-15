@@ -1,0 +1,17 @@
+.prod-page-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+
+.prod-container {
+  display: flex;
+  padding: 1rem 3rem;
+  gap: 2rem;
+}
+
+.prod-container-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.5rem;
+}
